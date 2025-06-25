@@ -6,3 +6,6 @@
 <li>ボール同士の衝突</li>
 <li>連続ヒットでボーナススコア</li>
 </ul>
+
+このプロジェクトは、OpenGLのglutをWindowsでビルドできるようにする、freeglutを使用しています。
+<a href="https://github.com/freeglut/freeglut"></a>
