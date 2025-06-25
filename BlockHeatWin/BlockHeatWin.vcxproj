@@ -112,7 +112,9 @@
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy /Y "dll\freeglutd.dll"  "$(OutDir)"</Command>
+      <Command>copy /Y "dll\freeglutd.dll"  "$(OutDir)"
+copy /Y "data" "$(OutDir)"
+xcopy /I "font" "$(OutDir)font"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
