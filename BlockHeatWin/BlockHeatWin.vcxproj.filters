@@ -62,4 +62,9 @@
       <Filter>ライブラリファイル</Filter>
     </Library>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="dll\freeglutd.dll">
+      <Filter>ライブラリファイル</Filter>
+    </None>
+  </ItemGroup>
 </Project>
