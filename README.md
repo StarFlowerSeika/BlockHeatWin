@@ -7,8 +7,8 @@
 <li>連続ヒットでボーナススコア</li>
 </ul>
 
-このプロジェクトは、OpenGLのglutをWindowsでビルドできるようにする、freeglutを使用しています。
-<a href="https://github.com/freeglut/freeglut"></a>
+このプロジェクトは、OpenGLのglutをWindowsでビルドできるようにする、<a href="https://github.com/freeglut/freeglut">freeglut</a>を使用しています。
+
 
 プロジェクトをビルド後、出力先に実行ファイル、ステージデータファイル、フォントファイルがコピーされます。
 現在、Visual Studioのデバッグと、実行ファイルを直接起動する場合でパスが変わるため、デバッグではエラーが出ます。
