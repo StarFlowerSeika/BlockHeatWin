@@ -70,10 +70,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\users\source\repos\freeglut\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\users\source\repos\freeglut\out\build\x64-Debug\lib;$(LibraryPath)</LibraryPath>
-  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -147,7 +144,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GL\freeglut.h" />
+    <ClInclude Include="GL\freeglut_ext.h" />
+    <ClInclude Include="GL\freeglut_std.h" />
+    <ClInclude Include="GL\freeglut_ucall.h" />
+    <ClInclude Include="GL\glut.h" />
     <ClInclude Include="text_GL.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\freeglutd.lib" />
+    <Library Include="lib\freeglut_staticd.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

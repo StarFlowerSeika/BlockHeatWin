@@ -3,9 +3,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <windows.h>
-#include <GL/gl.h>
-#include <GL/glu.h>
-#include <GL/freeglut.h>
+#include "GL/gl.h"
+#include "GL/glu.h"
+#include "GL/freeglut.h"
 #include <time.h>
 #include <math.h>
 #include "text_GL.h"
