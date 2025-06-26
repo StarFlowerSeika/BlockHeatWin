@@ -13,3 +13,5 @@
 プロジェクトをビルド後、出力先に実行ファイル、ステージデータファイル、フォントファイルがコピーされます。
 現在、Visual Studioのデバッグと、実行ファイルを直接起動する場合でパスが変わるため、デバッグではエラーが出ます。
 ビルド後は、実行ファイルを直接起動してください。
+
+<a href="https://deepwiki.com/StarFlowerSeika/BlockHeatWin"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
